@@ -13,7 +13,6 @@ class Calculator:
         result = a/b
         return result
 
-
     def multiply(self, a, b):
         result = a * b
         return result
@@ -24,5 +23,8 @@ class Calculator:
 
     def sqrt(self,a,b):
         result = math.sqrt(a,b)
+        return result
+    def square(self,a,b):
+        result = a**b
         return result
 
