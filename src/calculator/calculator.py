@@ -21,8 +21,8 @@ class Calculator:
         result = a-b
         return result
 
-    def sqrt(self,a,b):
-        result = math.sqrt(a,b)
+    def sqrt(self,a):
+        result = math.sqrt(a)
         return result
     def square(self,a,b):
         result = a**b
