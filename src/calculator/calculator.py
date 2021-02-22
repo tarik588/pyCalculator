@@ -8,10 +8,14 @@ class Calculator:
         result = a+b
         return result
 
-     def divide(self,a,b):
+    def divide(self,a,b):
         result = a/b
         return result
 
+
+    def multiply(self, a, b):
+        result = a * b
+        return result
 
 
 
