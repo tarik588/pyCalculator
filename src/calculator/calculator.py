@@ -25,7 +25,7 @@ class Calculator:
         result = math.sqrt(a)
         return result
 
-    def square(self,a,b):
-        result = a**b
+    def square(self,a):
+        result = a**2
         return result
 
