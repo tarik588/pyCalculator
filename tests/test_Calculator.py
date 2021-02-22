@@ -13,6 +13,6 @@ class CalculatorTestCase(unittest.TestCase):
     def test_result_is_zero_calculator(self):
         self.assertEqual(self.calculator.result, 0)
 
-
+print()
 
 
