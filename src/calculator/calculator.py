@@ -1,3 +1,4 @@
+import math
 class Calculator:
     result = 0
 
@@ -20,5 +21,8 @@ class Calculator:
     def subtraction(self,a,b):
         result = a-b
         return result
-    def
+
+    def sqrt(self,a,b):
+        result = math.sqrt(a,b)
+        return result
 
