@@ -17,5 +17,8 @@ class Calculator:
         result = a * b
         return result
 
-
+    def subtraction(self,a,b):
+        result = a-b
+        return result
+    def
 
