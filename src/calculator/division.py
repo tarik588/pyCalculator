@@ -9,3 +9,4 @@ class Calculator:
 
         return result
 
+Calculator.divide = staticmethod(Calculator.divide)
